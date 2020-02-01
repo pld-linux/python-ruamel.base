@@ -6,7 +6,7 @@
 Summary:	Common routines for ruamel packages
 Name:		python-%{module}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.base/
@@ -24,7 +24,6 @@ BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 %endif
 Requires:	python-modules
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

@@ -3,12 +3,14 @@
 %bcond_without	python2 # CPython 2.x module
 %bcond_without	python3 # CPython 3.x module
 
+%define		_enable_debug_packages	0
+
 %define		module		ruamel.base
 Summary:	Common routines for ruamel packages
 Summary(pl.UTF-8):	Wspólne funkcje dla pakietów ruamel
 Name:		python-%{module}
 Version:	1.0.0
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.base/

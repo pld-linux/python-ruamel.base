@@ -10,7 +10,7 @@ Summary:	Common routines for ruamel packages
 Summary(pl.UTF-8):	Wspólne funkcje dla pakietów ruamel
 Name:		python-%{module}
 Version:	1.0.0
-Release:	4
+Release:	5
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.base/
